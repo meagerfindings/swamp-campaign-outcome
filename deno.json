@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "check": "deno check extensions/models/campaign_outcome.ts extensions/models/_lib/campaign_outcome_contracts.ts",
+    "test": "deno test --allow-read extensions/models"
+  },
+  "fmt": {
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
